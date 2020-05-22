@@ -117,5 +117,14 @@ label{
       padding-right: 5%;
   }
 
+  div#res{
+
+      margin-top: 10px;
+      color: green;
+      background-color: antiquewhite;
+      font-size: large;
+      font-weight: bold;
+  }
+
 
   
