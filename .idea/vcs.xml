@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
+=======
+    <mapping directory="$PROJECT_DIR$/calculadora-frelance-heartlabs-challenge" vcs="Git" />
+>>>>>>> 8e49d05028521122dc905df3dc71ff346d9da00c
   </component>
 </project>

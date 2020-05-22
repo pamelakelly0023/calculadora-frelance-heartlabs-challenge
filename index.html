@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de Freela - He4rtDevs</title>
-        <script type="text/javascript" src="main.js"></script>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-       <center> 
+       <center>
 			<header>
 				<h1>Calculadora Freenlance</h1>
 			</header>
-             <form>
-                <label for="tDiario">Tempo Diário:</label>
-                <span data-tooltip="Número de horas dedicadas ao projeto por dia"><input type="number" id="tDiario" name="tDiario"></span>
+           <form>
+
+                 <label for="tDiario">Horas diárias:</label>
+                 <span data-tooltip="Número de horas diarias dedicadas ao projeto">
+                     <input type="number" id="tDiario" name="tDiario"></span>
+
                 <label for="dEfetivos">Dias Efetivos:</label>
-                <span data-tooltip="Número de dias da semana que você irá trabalhar no projeto"><input type="number" id="dEfetivos" name="dEfetivos"></span>
+                <span data-tooltip="Número de dias da semana que você irá trabalhar no projeto">
+                    <input type="number" id="dEfetivos" name="dEfetivos"></span>
+
                 <label for="dFerias">Dias de Férias:</label>
-                <span data-tooltip="Número de dias que você irá tirar folga"><input type="number" id="dFerias" name="dFerias"></span>
+                <span data-tooltip="Número de dias que você irá tirar folga">
+                    <input type="number" id="dFerias" name="dFerias"></span>
+
                 <label for="vTotal">Valor Total:</label>
-                <span data-tooltip="Valor total a ser recebido" ><input type="number" id="vTotal" name="vTotal"></span>
-                
-                <input type="button" id="btnCalcular" value="Calcular" onclick="calcular()"/>
+                <span data-tooltip="Valor total do projeto" >
+                    <input type="number" id="vTotal" name="vTotal"></span>
+
+                 <div id="res"> </div>
+
+
+               <input type="button" value="Calcular" onclick="calcular()">
 
              </form>
-			 <h3>O valor da hora é: </h3>
-             <div id="result"></div></center>
-    
-       
+       </center>
+
+       <script src="js/calcular.js" ></script>
+
+
     </body>
 </html>
