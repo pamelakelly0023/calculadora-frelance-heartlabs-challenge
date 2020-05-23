@@ -1,0 +1,18 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Calculadora de Freela - He4rtDevs</title>\n        <script type=\"text/javascript\" src=\"main.js\"></script>\n        <link rel=\"stylesheet\" href=\"main.css\">\n    </head>\n    <body>\n       <center> \n\t\t\t<header>\n\t\t\t\t<h1>Calculadora Freenlance</h1>\n\t\t\t</header>\n             <form>\n                <label for=\"tDiario\">Tempo Diário:</label>\n                <span data-tooltip=\"Número de horas dedicadas ao projeto por dia\"><input type=\"number\" id=\"tDiario\" name=\"tDiario\"></span>\n                <label for=\"dEfetivos\">Dias Efetivos:</label>\n                <span data-tooltip=\"Número de dias da semana que você irá trabalhar no projeto\"><input type=\"number\" id=\"dEfetivos\" name=\"dEfetivos\"></span>\n                <label for=\"dFerias\">Dias de Férias:</label>\n                <span data-tooltip=\"Número de dias que você irá tirar folga\"><input type=\"number\" id=\"dFerias\" name=\"dFerias\"></span>\n                <label for=\"vTotal\">Valor Total:</label>\n                <span data-tooltip=\"Valor total a ser recebido\" ><input type=\"number\" id=\"vTotal\" name=\"vTotal\"></span>\n                \n                <input type=\"button\" id=\"btnCalcular\" value=\"Calcular\" onclick=\"calcular()\"/>\n\n             </form>\n\t\t\t <h3>O valor da hora é: </h3>\n             <div id=\"result\"></div></center>\n    \n       \n    </body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision c98fe0cc024eaa8aea82a93cf552b66033ef3855)
++++ index.html	(date 1589806619474)
+@@ -22,7 +22,7 @@
+                 <label for="vTotal">Valor Total:</label>
+                 <span data-tooltip="Valor total a ser recebido" ><input type="number" id="vTotal" name="vTotal"></span>
+                 
+-                <input type="button" id="btnCalcular" value="Calcular" onclick="calcular()"/>
++                 <input type="button" id="btnCalcular" value="Calcular" onclick="calcular()"/>
+ 
+              </form>
+ 			 <h3>O valor da hora é: </h3>
