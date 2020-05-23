@@ -8,8 +8,6 @@ var campos = [
 
 ]
 
-console.log(campos);
-
 function calcular(){
 
    var n1 = Number(campos[0])
