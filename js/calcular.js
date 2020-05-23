@@ -4,7 +4,7 @@ var campos = [
     document.querySelector('input#tDiario').value,
     document.querySelector('input#dEfetivos').value,
     document.querySelector('input#dFerias').value,
-    document.querySelector('input#vTotal').value,
+    document.querySelector('input#vTotal').value
 
 ]
 
